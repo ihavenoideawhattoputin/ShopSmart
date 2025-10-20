@@ -2,13 +2,12 @@
   <div class = "layout">
     <Sidebar />
     <div class="main-content">
-      <Home/>
-    </div>
+        <router-view />
+      </div>
   </div>
 </template>
 
 <script setup>
-import  Home from './pages/Home.vue';
 import Sidebar from './components/Sidebar.vue';
 // Empty — RouterView will render pages
 </script>

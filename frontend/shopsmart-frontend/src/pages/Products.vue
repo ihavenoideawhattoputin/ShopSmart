@@ -1,11 +1,12 @@
+
 <template>
-    <div class="page">
-        <h1>Home</h1>
-    </div>
+	<div class="page">
+		<h1>Products</h1>
+	</div>
 </template>
 
 <script setup>
-// minimal home page
+// minimal
 </script>
 
 <style scoped>
