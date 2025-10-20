@@ -1,11 +1,28 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class = "layout">
+    <Sidebar />
+    <div class="main-content">
+      <Home/>
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import  Home from './pages/Home.vue';
+import Sidebar from './components/Sidebar.vue';
+// Empty — RouterView will render pages
+</script>
+
+
+
+<style>
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9fafb;
+}
+.layout {
+  display : flex;
+}
+</style>

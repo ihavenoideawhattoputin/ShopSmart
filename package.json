@@ -1,0 +1,21 @@
+{
+  "name": "shopsmart",
+  "version": "1.0.0",
+  "description": "ShopSmart is a fullstack e-commerce web app where users can browse products, add them to a cart, and simulate checkout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihavenoideawhattoputin/ShopSmart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ihavenoideawhattoputin/ShopSmart/issues"
+  },
+  "homepage": "https://github.com/ihavenoideawhattoputin/ShopSmart#readme"
+}
