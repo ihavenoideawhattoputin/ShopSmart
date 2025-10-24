@@ -10,8 +10,7 @@ const routes = [
   { path: '/checkout', name: 'Checkout', component: () => import('./Checkout.vue'), meta: { requiresAuth: true } },
   { path: '/auth/login', name: 'Login', component: () => import('./Login.vue') },
   { path: '/account', name: 'Account', component: () => import('./Account.vue'), meta: { requiresAuth: true } },
-  { path: '/admin', name: 'Admin', component: () => import('./Admin.vue'), meta: { requiresAdmin: true } },
-  { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('./NotFound.vue') },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('./NotFound.vue') },
 ]
 
 const router = createRouter({

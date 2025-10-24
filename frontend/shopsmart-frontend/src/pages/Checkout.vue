@@ -5,7 +5,6 @@
 </template>
 
 <script setup>
-// placeholder checkout page
 </script>
 
 <style scoped>
